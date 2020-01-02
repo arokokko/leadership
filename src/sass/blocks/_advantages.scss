@@ -19,14 +19,16 @@
         margin-top: 25px;
         span {
             color: #ff0000;
+            text-transform: uppercase;
         }
     }
     &__icon {
-        &_animated {
-            animation: heartbeat 1.5s ease infinite paused;
-            &:hover {
-                animation-play-state: running;
-            }
-        }
+        height: 80px;
+        // &_animated {
+        //     animation: heartbeat 1.5s ease infinite paused;
+        //     &:hover {
+        //         animation-play-state: running;
+        //     }
+        // }
     }
 }

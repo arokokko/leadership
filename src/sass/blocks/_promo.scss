@@ -1,7 +1,7 @@
 .promo {
-    min-height: 650px;
+    min-height: 100vh;
     padding: 21px 0 93px;
-    background: url(../images/bg-top.png) center center/cover no-repeat;
+    background: url(../images/nhatrang.png) center center/cover no-repeat;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -23,13 +23,16 @@
         text-align: right;
         line-height: 1;
         color: #ffffff;
-        text-transform: uppercase;
+        // text-transform: uppercase;
     }
     &__icons {
         margin-top: 65px;
         width: 450px;
         display: flex;
         justify-content: space-around;
+    }
+    &__icon {
+        height: 50px;
     }
     &__item {
         width: 108px;
@@ -44,6 +47,7 @@
         font-weight: 500;
         text-align: center;
         color: #ffffff;
+        text-transform: uppercase;
     }
     &__link {
         margin-top: 18px;
@@ -55,6 +59,9 @@
         color: #ffffff;
         text-decoration: underline;
         transition: all .3s;
+        span {
+            text-transform: uppercase;
+        }
         &:hover {
             color: $main-color;
         }

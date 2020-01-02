@@ -33,4 +33,11 @@
 		flex-direction: column;
 		align-items: flex-end;
 	}
+
+	&__logotype {
+		max-width: 251px;
+	}
+	&__logo {
+		width: 100%;
+	}
 }

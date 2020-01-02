@@ -11,6 +11,8 @@
         width: 169px;
         height: 169px;
         margin-right: 62px;
+        flex-shrink: 0;
+        border-radius: 100%;
     }
     &__name {
         font-size: 18px;
@@ -36,5 +38,14 @@
         margin-top: 50px;
         margin-bottom: 50px;
         background-color: #f6f6f6;
+    }
+    &__title{
+        a {
+            color: $text-color;
+            &:hover {
+                color: $main-color;
+                text-decoration: none;
+            }
+        }
     }
 }

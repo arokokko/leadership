@@ -18,6 +18,8 @@
     }
     .catalog {
         &__content {
+            padding-right: 30px;
+            padding-left: 30px;
             &_active {
                 justify-content: center;
             }
@@ -32,6 +34,12 @@
             padding: 30px 0 30px;
             height: 220px;
             width: 400px;
+        }
+        &__addr, &__phone {
+            font-size: 18px;
+        }
+        &__social {
+            margin-top: 30px;
         }
     }
 }
@@ -85,16 +93,6 @@
             transform: none;
         }
     }
-    .footer {
-        &__map{
-            iframe {
-                height: 70vw;
-            }
-        }
-        &__contacts {
-            top: 70vw;
-        }
-    }
     
 }
 
@@ -107,7 +105,7 @@
             margin-top: 25px;
         }
         &_btn {
-            margin-top: 20px;
+            margin-top: 0px;
         }
     }
     .promo {
@@ -181,6 +179,9 @@
         padding-bottom: 50px;
         &__header {
             font-size: 23px;
+        }
+        &__wrapper {
+            margin-top: 60px;
         }
         &__subheader {
             font-size: 13px;
